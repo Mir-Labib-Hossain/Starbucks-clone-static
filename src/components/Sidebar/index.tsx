@@ -17,8 +17,8 @@ const Sidebar: React.FC<SidebarProps> = ({ mode, setMode }) => {
   const switchLabel = { inputProps: { "aria-label": "Switch demo" } };
 
   return (
-    <Box flex={2} sx={{ display: { xs: "none", sm: "block" } }}>
-      <Box position="fixed">
+    <Box width="15vw" sx={{ display: { xs: "none", sm: "block" } }} >
+      <Box position="fixed" width="14vw">
         <List
           sx={{ width: "100%", maxWidth: 360, bgcolor: "background.paper" }}
           component="nav"
